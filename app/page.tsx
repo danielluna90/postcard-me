@@ -3,7 +3,7 @@ import PostCard from "./components/postcard";
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center min-h-screen">
+    <main className="flex justify-center items-center">
       <PostCard/>
     </main>
   );
