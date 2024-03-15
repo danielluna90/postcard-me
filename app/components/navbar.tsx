@@ -4,8 +4,8 @@ export default function Navbar() {
       <a href="/" className="text-xl font-semibold">Postcard Me</a>
       <div>
         <ul className="flex flex-row gap-4">
-          <li><a href="/" className="text-md">Create a Postcard</a></li>
-          <li><a href="/" className="text-md">Open a Postcard</a></li>  
+          <li><a href="/create" className="text-md">Create a Postcard</a></li>
+          <li><a href="/open" className="text-md">Open a Postcard</a></li>  
         </ul>        
       </div>
     </nav>
